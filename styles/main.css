@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  width: 100vw;
+  border-bottom: 1px solid #808090;
+  box-shadow: 0 2px 3px 0 #808090, 0 6px 10px 0 #808090;
+}
+ul {
+  height: 100px;
+  display: flex;
+  margin: 0 20vw;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: 15rem auto 0 auto;
+}
+.containers {
+  text-align: center;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid black;
+}
