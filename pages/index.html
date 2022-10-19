@@ -9,20 +9,148 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li>ting 1</li>
-        <li>ting 2</li>
-        <li>ting 3</li>
-        <li>ting 4</li>
-        <li>ting 5</li>
+      <ul class="header__menu">
+        <li class="header__menuItem">
+          <a href="#1">Click events og check-boxes </a>
+        </li>
+        <li class="header__menuItem"><a href="#2">Hover</a></li>
+        <li class="header__menuItem"><a href="#3">Child og Type</a></li>
+        <li class="header__menuItem"><a href="#4">keyframes</a></li>
       </ul>
     </header>
-    <main>
-      <div class="containers">noget spicy</div>
-      <div class="containers">noget spicy</div>
-      <div class="containers">noget spicy</div>
-      <div class="containers">noget spicy</div>
-      <div class="containers">noget spicy</div>
-    </main>
+    <article id="1" class="over">
+      <h2>Click-events og check-boxes</h2>
+      <p>Her går vi over transitions ved click events og check-boxes</p>
+    </article>
+    <section class="section">
+      <div class="containers">
+        <p class="containers__text">
+          Ved klik giv containeren en class med anden styling
+        </p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Ved klik går så teksten skrifter farve over 250ms
+        </p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Ved klik gør så teksten bevære sig op og ned i et infinti loop intil
+          man klikker igen
+        </p>
+      </div>
+      <div class="containers">
+        <input
+          type="checkbox"
+          name="containers__checkbox"
+          id="containers__checkbox"
+        />
+        <p class="containers__text">
+          ved klik af checkboxen skal der komme en anden styling kun med css
+        </p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Gør så checkboxen gør noget når den ikke er "checked" men ingen ting
+          når den er
+        </p>
+      </div>
+    </section>
+    <article id="2" class="over">
+      <h2>Hover</h2>
+      <p>
+        Her går vi igennem et par ting omkring pseudo selectoren
+        <strong> hover </strong>
+        for at vise de forskellige ting man kan komme ud for med hover
+        animationer
+      </p>
+    </article>
+    <section class="section">
+      <div class="containers">
+        <p class="containers__text">Giv shadow på hover</p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">Gør så containen bevære sig opad</p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">Gør så teksten bevære sig nedad</p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Giv både container og text forskellige shadows med text-shadow og
+          box-shadow
+        </p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Gør så en menu kommer frem som du kan klikke ind i
+        </p>
+        <ul class="containers__ul">
+          <li>Jeg</li>
+          <li>Er</li>
+          <li>Sej</li>
+        </ul>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Lav en animation hvor en strej går rundt om container en gang og lav
+          en større border (Lille hint du skal bruge keyframes ;D)
+        </p>
+        <span class="1-line-1"></span>
+        <span class="2-line-1"></span>
+        <span class="3-line-1"></span>
+        <span class="4-line-1"></span>
+      </div>
+    </section>
+    <article id="3" class="over">
+      <h2>Child og Type</h2>
+      <p>
+        Her skal du prøve krafter med både pseudo selectorerne
+        <strong> child</strong> og <strong> type</strong> for at vise det kan
+        være nemmer og hurtigere end at skulle til at skrive classNames
+      </p>
+    </article>
+    <section class="section">
+      <div class="containers">
+        <p class="containers__text">
+          Gør så teksten rød kun ved hjælp af at give diven (containen) en ny
+          class og ved brug af <strong>child</strong>
+        </p>
+      </div>
+      <div class="containers container-par">
+        <p class="containers__text">
+          Gør så p-tagede bliver blue og teksten rød ved hjælp af
+          <strong>type</strong>
+        </p>
+      </div>
+      <div class="containers">
+        <p class="containers__text">
+          Brug den måde du føler er best for at få text containeren til rykke
+          sig op ad og gøre så den texten bliver blå
+        </p>
+      </div>
+    </section>
+    <article class="over">
+      <h2>Keyframes</h2>
+      <p>
+        Her går vi over alt the basale omkring keyframes hvor du skal prøve
+        krafter med at lave animationer som gør forskellige ting sammentidig
+      </p>
+    </article>
+    <section class="keySection">
+      <div class="keyContainer">
+        <p class="keyContainer__text">
+          I den første opgave skal du gøre så de to span tags går op og ned ved
+          hjælp af keyframes
+        </p>
+        <span class="keyLines-1"></span>
+        <span class="keyLines-2"></span>
+      </div>
+      <div class="keyContainer">
+        <p class="keyContainer__text">
+          I denne opgave skal du lave 3 elementer som går rundt i en circle
+        </p>
+      </div>
+    </section>
   </body>
 </html>
